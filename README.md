@@ -1,109 +1,82 @@
-📌 Expense Tracker (Java Console Application)
+📌 Expense Tracker – Java Console Application
 
-A simple and beginner-friendly Java console project to record and analyze daily expenses. This project demonstrates core Java concepts like arrays, loops, conditions, methods, and OOP principles.
+A simple and beginner-friendly Java project to record and analyze daily expenses. This application demonstrates core Java concepts like arrays, loops, conditional logic, OOP, and methods, making it a perfect learning project and resume addition.
 
 🚀 Features
 
 Add expenses with notes and amount
 
-View total expenditure
+View total spending
 
 Find highest and lowest expense
 
-Display all recorded expenses
+Display all expenses
 
-Simple menu-driven interface
+Menu-driven user interface
 
-Uses OOP (Classes: Expense, ExpenseManager)
+Uses Classes & Objects (OOP)
 
 No external libraries required
 
-🛠️ Tech Stack
+🛠️ Technologies Used
 
 Java (Core Java)
 
 Console-based application
 
 📂 Project Structure
-src/
+ExpenseTracker/
 │
-├── Expense.java
-├── ExpenseManager.java
-└── Main.java
+├── README.md
+│
+├── src/
+│   ├── Expense.java
+│   ├── ExpenseManager.java
+│   └── Main.java
+│
+└── .gitignore
 
-📘 Concepts Used
+📘 Concepts Demonstrated
 
 Arrays
 
-Loops
+For/While loops
 
 Conditional statements
 
-OOP: Classes, Objects, Encapsulation
+Switch-case
 
-Methods & constructors
+Classes & Objects
 
-Switch-case menu
+Encapsulation
 
-▶️ How to Run
+Constructors & Methods
 
-Download or clone the repository
+▶️ How to Run the Project
 
-Open in any Java IDE (IntelliJ / VS Code / Eclipse)
+Clone this repository:
 
-Compile and run Main.java
+git clone https://github.com/yourusername/ExpenseTracker.git
 
-Use the menu to manage expenses
+
+Open the project in any Java IDE (VS Code, IntelliJ, Eclipse)
+
+Navigate to the src folder
+
+Run the Main.java file
+
+Use the menu to add and view expenses
 
 📈 Future Enhancements
 
-Add file storage (save expenses to a file)
+Store expenses in a text file
 
-Add categories (food, travel, shopping, etc.)
+Add categories (Food, Travel, Shopping, etc.)
 
-Monthly analysis reports
+Monthly or weekly expense reports
 
-Convert to GUI app using JavaFX
+Convert to GUI using JavaFX or Swing
 
 📜 License
 
-Free for learning & personal use.
-
-✅ 2. UML Class Diagram (Text-based + image-ready layout)
-
-You can draw this as a diagram using any UML tool:
-
-+------------------+
-|     Expense      |
-+------------------+
-| - note: String   |
-| - amount: double |
-+------------------+
-| + getNote(): String
-| + getAmount(): double
-+------------------+
-
-          1..*
-             |
-             |
-+---------------------------+
-|      ExpenseManager       |
-+---------------------------+
-| - expenses: Expense[]     |
-| - count: int              |
-+---------------------------+
-| + addExpense(e: Expense)  |
-| + getTotal(): double      |
-| + getHighest(): double    |
-| + getLowest(): double     |
-| + showAll(): void         |
-+---------------------------+
-
-               |
-              uses
-               |
-         +------------+
-         |   Main     |
-         +------------+
-         | + main()   |
-         +------------+
+This project is free for educational and personal use.
